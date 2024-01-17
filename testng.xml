@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+	<test name="Mytest">
+
+		<parameter name="First_Name" value="King" />
+		<parameter name="Last_Name" value="Kohli" />
+		<parameter name="Email" value="king00011@yopmail.com" />
+		<parameter name="Country_Code" value="India +91" />
+		<parameter name="Phone_Number" value="7555927111" />
+		<parameter name="Choose_Passward" value="Welcome@123" />
+		<parameter name="Confirm_Password" value="Welcome@123" />
+
+		<classes>
+			<class name="com.raffolux.testcases.End_2_End_Testcases_Test" />
+		</classes>
+
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
